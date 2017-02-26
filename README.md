@@ -4,6 +4,17 @@ MImageLoad是一个第三方图片加载框架兼容库，能方便快速切换�
 <br/>
 
 ## Gradle [下载aar](https://github.com/MrxMo/MImageLoad/raw/master/release/mimageloadlib-1.0_2017_02_26.aar)
+在项目的gradle中添加
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+在app的gradle中添加
  ```
  compile 'com.github.MrxMo:MImageLoad:v1.0'
  ```
